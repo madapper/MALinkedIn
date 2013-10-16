@@ -21,6 +21,8 @@
 #import "MALinkedInPeopleSearchBucket.h"
 #import "MALinkedInPeopleSearchFacets.h"
 #import "MALinkedInPeopleSearchFields.h"
+#import "MALinkedInCompanies.h"
+#import "MALinkedInCompaniesFields.h"
 
 
 #endif

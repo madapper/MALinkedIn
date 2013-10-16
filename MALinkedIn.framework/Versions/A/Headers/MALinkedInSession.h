@@ -16,8 +16,13 @@
 @property (nonatomic, retain) NSString *token;
 @property (nonatomic, retain) NSArray *permissions;
 
-+ (MALinkedInSession*)sharedSession;
++ (MALinkedInSession *)sharedSession;
 - (MALinkedInSessionPermissions)getPermission:(NSString *)permissionName;
 - (NSString *)getPermissionName:(MALinkedInSessionPermissions)permission;
+
++(MALinkedInSession *)cachedSession;
+
+-(void)cache;
++(void)clearSharedSession;
 
 @end
