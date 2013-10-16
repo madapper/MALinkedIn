@@ -13,9 +13,7 @@
 #import "MALinkedInPeopleProfileFields.h"
 
 
-@interface MALinkedInPeopleProfile : NSObject<MALinkedInConnectionHandlerDelegate>
-
-@property (nonatomic, retain) NSObject *requestedObject;
+@interface MALinkedInPeopleProfile : NSObject
 
 +(void)requestMe:(MALinkedInSession *)session completion:(void (^)(NSObject *object))completion;
 +(void)requestMe:(MALinkedInSession *)session components:(MALinkedInPeopleProfileFields *)components completion:(void (^)(NSObject *object))completion;

@@ -12,9 +12,7 @@
 #import "MALinkedInSession.h"
 #import "MALinkedInPeopleConnectionsFields.h"
 
-@interface MALinkedInPeopleConnections : NSObject<MALinkedInConnectionHandlerDelegate>
-
-@property (nonatomic, retain) NSObject *requestedObject;
+@interface MALinkedInPeopleConnections : NSObject
 
 +(void)requestMyConnections:(MALinkedInSession *)session completion:(void (^)(NSObject *object))completion;
 +(void)requestMyConnections:(MALinkedInSession *)session components:(MALinkedInPeopleConnectionsFields *)components completion:(void (^)(NSObject *object))completion;

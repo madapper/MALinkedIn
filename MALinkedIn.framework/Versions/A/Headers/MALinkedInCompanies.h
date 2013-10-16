@@ -12,9 +12,7 @@
 #import "MALinkedInSession.h"
 #import "MALinkedInCompaniesFields.h"
 
-@interface MALinkedInCompanies : NSObject<MALinkedInConnectionHandlerDelegate>
-
-@property (nonatomic, retain) NSObject *requestedObject;
+@interface MALinkedInCompanies : NSObject
 
 +(void)requestCompany:(MALinkedInSession *)session fields:(MALinkedInCompaniesFields *)fields withID:(NSString *)cid withUniversalName:(NSString *)withUniversalName withEmailDomain:(NSString *)emailDomain completion:(void (^)(NSObject *object))completion;
 

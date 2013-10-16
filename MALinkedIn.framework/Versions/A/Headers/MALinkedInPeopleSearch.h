@@ -25,7 +25,7 @@ You cannot let multiple people search using the authentication credentials of on
  If you have questions, see the LinkedIn Platform Guidelines for more information. (http://developer.linkedin.com/documents/linkedin-platform-guidelines)
  */
 
-@interface MALinkedInPeopleSearch : NSObject<MALinkedInConnectionHandlerDelegate>
+@interface MALinkedInPeopleSearch : NSObject
 
 @property (nonatomic, retain) NSObject *requestedObject;
 

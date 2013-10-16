@@ -23,6 +23,7 @@
 #import "MALinkedInPeopleSearchFields.h"
 #import "MALinkedInCompanies.h"
 #import "MALinkedInCompaniesFields.h"
+#import "XMLDictionary.h"
 
 
 #endif
