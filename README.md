@@ -35,25 +35,27 @@ The intention is also in improve documentation to ensure easier use.
 
 In order to use this, you will first have to sign into http://developer.linkedin.com and create an application following their guidelines. After this the implementation is simple. Add the libxml2.dylib to your frameworks and drag the MALinkedIn.framework to your project. 
 
-In the header file
-
-#import <MALinkedIn/MALinkedIn.h>
+In the header file import this header file <MALinkedIn/MALinkedIn.h>
 
 in the implementation file
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
 MALinkedInSession *session = [MALinkedInSession cachedSession];
-    if (!session) {
-        MALinkedInLogInView *login = [[MALinkedInLogInView alloc]initWithRedirectURL:<your redirect url> clientID:<your app id> clientSecret:<your client secret>];
-        login.delegate = self;
-        [self.view addSubview:login];
-    }else{
-        [self linkedInViewDidLogIn:session];
-    }
 
-}
+	if (!session) {
+	
+		MALinkedInLogInView *login = [[MALinkedInLogInView alloc]initWithRedirectURL:<your redirect url> clientID:<your app id> clientSecret:<your client secret>];
+		
+		login.delegate = self;
+		
+		[self.view addSubview:login];
+		
+    	}else{
+    	
+        	[self linkedInViewDidLogIn:session];
+        	
+    	}
+    	
+
 
 -(void)linkedInViewDidLogIn:(MALinkedInSession *)session{
 	
