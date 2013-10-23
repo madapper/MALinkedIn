@@ -11,6 +11,9 @@ This is a framework for working with the LinkedIn API native to iOS. It is a wor
 **Companies**<br/>
 -Company Lookup API
 
+**Share and Social Stream**<br/>
+-Get Network Updates and Statistics API
+
 
 Future plans are to include the following APIs:
 
@@ -26,7 +29,6 @@ Future plans are to include the following APIs:
 
 **Share and Social Stream**<br/>
 -Share API<br/>
--Get Network Updates and Statistics API
 
 **Communications**<br/>
 -Invitation API<br/>
