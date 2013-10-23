@@ -15,6 +15,10 @@
 @property (nonatomic, retain) NSDate *expiry;
 @property (nonatomic, retain) NSString *token;
 @property (nonatomic, retain) NSArray *permissions;
+@property (nonatomic, retain) NSString *requestToken;
+@property (nonatomic, retain) NSString *redirectURL;
+@property (nonatomic, retain) NSString *clientID;
+@property (nonatomic, retain) NSString *clientSecret;
 
 + (MALinkedInSession *)sharedSession;
 - (MALinkedInSessionPermissions)getPermission:(NSString *)permissionName;

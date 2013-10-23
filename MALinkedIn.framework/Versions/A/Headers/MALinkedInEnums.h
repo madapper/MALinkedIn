@@ -46,4 +46,20 @@ typedef enum {
     MALinkedInPeopleSearchFieldsLanguageOther
 }MALinkedInPeopleSearchFieldsLanguage;
 
+typedef enum {
+    MALinkedInSocialNetworkFieldsTypeAPPS,
+    MALinkedInSocialNetworkFieldsTypeCMPY,
+    MALinkedInSocialNetworkFieldsTypeCONN,
+    MALinkedInSocialNetworkFieldsTypeJOBS,
+    MALinkedInSocialNetworkFieldsTypeJGRP,
+    MALinkedInSocialNetworkFieldsTypePICT,
+    MALinkedInSocialNetworkFieldsTypePRFX,
+    MALinkedInSocialNetworkFieldsTypeRECU,
+    MALinkedInSocialNetworkFieldsTypePRFU,
+    MALinkedInSocialNetworkFieldsTypeSHAR,
+    MALinkedInSocialNetworkFieldsTypeVIRL,
+}MALinkedInSocialNetworkFieldsType;
+
+
+
 #endif

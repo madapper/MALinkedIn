@@ -23,7 +23,10 @@
 #import "MALinkedInPeopleSearchFields.h"
 #import "MALinkedInCompanies.h"
 #import "MALinkedInCompaniesFields.h"
-#import "XMLDictionary.h"
-
+#import "MALinkedInSocialNetwork.h"
+#import "MALinkedInSocialNetworkFields.h"
+//#import "MALinkedInCommunicationsMessaging.h"
+//#import "MALinkedInCommunicationsRecipient.h"
+//#import "MALinkedInCommunicationsInvitation.h"
 
 #endif

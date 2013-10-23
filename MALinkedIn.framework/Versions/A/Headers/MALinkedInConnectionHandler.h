@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "XMLDictionary.h"
+#import "MALinkedInSession.h"
+#import "OAHMAC_SHA1SignatureProvider.h"
 
 #define ERRORLOG_POST true
 #define ERRORLOG_CONNECTIONSTATUS false

@@ -13,6 +13,7 @@
 #import "MALinkedInConnectionHandler.h"
 #import "MALinkedInSession.h"
 
+
 @import QuartzCore;
 
 @class MALinkedInLogInView;
@@ -51,6 +52,8 @@
     CGSize keyboardSize;
     BOOL receivedOAuth;
     NSMutableArray *permissions;
+    NSString *request_token;
+    
 }
 
 @property (nonatomic, retain) NSObject<MALinkedInViewDelegate> *delegate;

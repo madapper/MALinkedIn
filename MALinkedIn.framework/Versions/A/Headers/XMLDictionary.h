@@ -84,8 +84,6 @@ static NSString *const XMLDictionaryAttributePrefix = @"_";
 + (NSDictionary *)dictionaryWithXMLString:(NSString *)string;
 + (NSDictionary *)dictionaryWithXMLFile:(NSString *)path;
 
-+ (NSString *)stringWithObject:(NSObject *)object;
-
 - (NSDictionary *)attributes;
 - (NSDictionary *)childNodes;
 - (NSArray *)comments;
