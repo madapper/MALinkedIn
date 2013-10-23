@@ -1,7 +1,7 @@
 MALinkedIn
 ==========
 
-This is a framework for working with the LinkedIn API native to iOS. It is a work in progress and currently contains the following APIs:
+This is a framework for working with the LinkedIn API native to iOS7. Currently previous versions of iOS are not supported, but this is a feature that is planned :). It is a work in progress and currently contains the following APIs:
 
 **People**<br/>
 -Profile API<br/>
