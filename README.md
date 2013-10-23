@@ -43,7 +43,7 @@ In the header file import MALinkedIn/MALinkedIn.h
 In the implementation file:
 <pre><code>
 MALinkedInSession *session = [MALinkedInSession cachedSession];
-	if (!session) {
+	if (!session.token) {
 		MALinkedInLogInView *login = [[MALinkedInLogInView alloc]initWithRedirectURL:<your redirect url> clientID:<your app id> clientSecret:<your client secret>];
 		login.delegate = self;
 		[self.view addSubview:login];
