@@ -1,13 +1,13 @@
 //
-//  LinkedIn.h
+//  MALinkedIn.h
 //  MALinkedIn
 //
 //  Created by Paul Napier on 10/10/13.
 //  Copyright (c) 2013 MadApper. All rights reserved.
 //
 
-#ifndef MALinkedIn_LinkedIn_h
-#define MALinkedIn_LinkedIn_h
+#ifndef MALinkedIn_MALinkedIn_h
+#define MALinkedIn_MALinkedIn_h
 
 #import "MALinkedIn.h"
 #import "MALinkedInEnums.h"
@@ -25,6 +25,9 @@
 #import "MALinkedInCompaniesFields.h"
 #import "MALinkedInSocialNetwork.h"
 #import "MALinkedInSocialNetworkFields.h"
+#import "MALinkedInGroups.h"
+#import "MALinkedInGroupsFields.h"
+#import "MALinkedInGroupsParameters.h"
 //#import "MALinkedInCommunicationsMessaging.h"
 //#import "MALinkedInCommunicationsRecipient.h"
 //#import "MALinkedInCommunicationsInvitation.h"

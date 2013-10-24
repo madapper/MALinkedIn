@@ -14,11 +14,14 @@ This is a framework for working with the LinkedIn API native to iOS7. Currently 
 **Share and Social Stream**<br/>
 -Get Network Updates and Statistics API
 
+**Groups**<br/>
+-Groups API - GET only
 
-Future plans are to include the following APIs:
+
+**Future plans are to include the following APIs:**
 
 **Groups**<br/>
--Groups API
+-Groups API - PUT, POST and DELETE
 
 **Jobs**<br/>
 -Job Lookup API<br/>

@@ -60,6 +60,20 @@ typedef enum {
     MALinkedInSocialNetworkFieldsTypeVIRL,
 }MALinkedInSocialNetworkFieldsType;
 
+typedef enum{
+    MALinkedInGroupsParametersOrderRecency = 300,
+    MALinkedInGroupsParametersOrderPopularity,
+}MALinkedInGroupsParametersOrder;
+
+typedef enum{
+    MALinkedInGroupsParametersRoleCreator= 400,
+    MALinkedInGroupsParametersRoleCommenter,
+    MALinkedInGroupsParametersRoleFollower,
+}MALinkedInGroupsParametersRole;
+
+typedef enum{
+    MALinkedInGroupsParametersCategoryDiscussion = 500,
+}MALinkedInGroupsParametersCategory;
 
 
 #endif
