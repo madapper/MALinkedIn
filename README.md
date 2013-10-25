@@ -17,15 +17,14 @@ This is a framework for working with the LinkedIn API native to iOS7. Currently 
 **Groups**<br/>
 -Groups API - GET only
 
+**Jobs**<br/>
+-Job Lookup API<br/>
+-Job Search API
 
 **Future plans are to include the following APIs:**
 
 **Groups**<br/>
 -Groups API - PUT, POST and DELETE
-
-**Jobs**<br/>
--Job Lookup API<br/>
--Job Search API
 
 **Job Posting**<br/>
 -Job Posting API

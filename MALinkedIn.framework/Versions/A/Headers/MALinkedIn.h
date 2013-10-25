@@ -28,6 +28,12 @@
 #import "MALinkedInGroups.h"
 #import "MALinkedInGroupsFields.h"
 #import "MALinkedInGroupsParameters.h"
+#import "MALinkedInJobsLookup.h"
+#import "MALinkedInJobsLookupFields.h"
+#import "MALinkedInJobsSearch.h"
+#import "MALinkedInJobsSearchFacets.h"
+#import "MALinkedInJobsSearchParameters.h"
+
 //#import "MALinkedInCommunicationsMessaging.h"
 //#import "MALinkedInCommunicationsRecipient.h"
 //#import "MALinkedInCommunicationsInvitation.h"
