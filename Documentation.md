@@ -27,7 +27,7 @@ Each API above has a separate Class within the framework on which it is possible
 
 In order to use this, you will first have to sign into http://developer.linkedin.com and create an application following their guidelines. After this the implementation is simple. Add the libxml2.dylib to your frameworks and drag the MALinkedIn.framework to your project. 
 
-For every class that will be accessing the MALinkedIn framework import MALinkedIn/MALinkedIn.h into the header file.
+For every class that will be accessing the MALinkedIn framework import <code>&lt;MALinkedIn/MALinkedIn.h&gt;</code> into the header file.
 
 **Authentication**
 
