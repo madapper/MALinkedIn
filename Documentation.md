@@ -1,22 +1,22 @@
 The MALinkedIn framework is designed to be simple to implement. At present the framework only includes methods to call the GET elements of the LinkedIn API from the following LinkedIn API Classes:
 
 **People**<br/>
--<a href="#ProfileAPI">Profile API</a><br/>
--<a href="#ConnectionsAPI">Connections API</a><br/>
--<a href="#SearchAPI">Search API</a>
+-Profile API<br/>
+-Connections API<br/>
+-Search API
 
 **Companies**<br/>
--<a href="#CompanyLookupAPI">Company Lookup API</a>
+-Company Lookup API
 
 **Share and Social Stream**<br/>
--<a href="#GetNetworkUpdatesandStatisticsAPI">Get Network Updates and Statistics API</a>
+-Get Network Updates and Statistics API
 
 **Groups**<br/>
--<a href="#GroupsAPI">Groups API</a> - GET only
+-Groups API - GET only
 
 **Jobs**<br/>
--<a href="#JobLookupAPI">Job Lookup API</a><br/>
--<a href="#JobSearchAPI">Job Search API</a>
+-Job Lookup API<br/>
+-Job Search API
 
 However, work is underway to include all PUT, POST and DELETE methods within all those APIs above as well as the remaining LinkedIn APIs.
 
@@ -59,7 +59,7 @@ MALinkedInSession *session = [MALinkedInSession cachedSession];
 The second call will automatically load the sharedSession method.
 
 **People**<br/>
--<a id="ProfileAPI">Profile API</a><br/>
+-Profile API<br/>
 
 The People Profile API allows users to get the details about a member on LinkedIn. There are six methods outlined below that allow the currently logged in user to get access to various infromation about the searched for user or themselves.
 
@@ -131,19 +131,19 @@ Which would return a dictionary with the relevant information (I have removed my
 
 </code></pre>
 
--<a id="ConnectionsAPI">Connections API</a><br/>
--<a id="SearchAPI">Search API</a><br/>
+-Connections API<br/>
+-Search API<br/>
 
 **Companies**<br/>
--<a id="CompanyLookupAPI">Company Lookup API</a><br/>
+-Company Lookup API<br/>
 
 **Share and Social Stream**<br/>
--<a id="GetNetworkUpdatesandStatisticsAPI">Get Network Updates and Statistics API</a><br/>
+-Get Network Updates and Statistics API<br/>
 
 **Groups**<br/>
--<a id="GroupsAPI">Groups API</a><br/>
+-Groups API<br/>
 
 **Jobs**<br/>
--<a id="JobLookupAPI">Job Lookup API</a><br/>
--<a id="JobSearchAPI">Job Search API</a><br/>
+-Job Lookup API<br/>
+-Job Search API<br/>
 
