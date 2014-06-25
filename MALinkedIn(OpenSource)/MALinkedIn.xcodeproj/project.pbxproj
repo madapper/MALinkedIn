@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85247C65180628DE002DE9A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85247C64180628DE002DE9A6 /* Foundation.framework */; };
+		85247C6B180628DE002DE9A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85247C69180628DE002DE9A6 /* InfoPlist.strings */; };
+		85247C7A18062916002DE9A6 /* MALinkedInLogInView.h in Headers */ = {isa = PBXBuildFile; fileRef = 85247C7218062916002DE9A6 /* MALinkedInLogInView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85247C7B18062916002DE9A6 /* MALinkedInLogInView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85247C7318062916002DE9A6 /* MALinkedInLogInView.m */; };
+		85247C7C18062916002DE9A6 /* XMLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 85247C7418062916002DE9A6 /* XMLDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85247C7D18062916002DE9A6 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 85247C7518062916002DE9A6 /* XMLDictionary.m */; };
+		85247C7E18062916002DE9A6 /* AMBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 85247C7618062916002DE9A6 /* AMBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85247C7F18062916002DE9A6 /* AMBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85247C7718062916002DE9A6 /* AMBlurView.m */; };
+		85247C8018062916002DE9A6 /* MALinkedInConnectionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 85247C7818062916002DE9A6 /* MALinkedInConnectionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85247C8118062916002DE9A6 /* MALinkedInConnectionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 85247C7918062916002DE9A6 /* MALinkedInConnectionHandler.m */; };
+		85247C8818062926002DE9A6 /* TFHpple.h in Headers */ = {isa = PBXBuildFile; fileRef = 85247C8218062926002DE9A6 /* TFHpple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85247C8918062926002DE9A6 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 85247C8318062926002DE9A6 /* TFHpple.m */; };
+		85247C8A18062926002DE9A6 /* TFHppleElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 85247C8418062926002DE9A6 /* TFHppleElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85247C8B18062926002DE9A6 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 85247C8518062926002DE9A6 /* TFHppleElement.m */; };
+		85247C8C18062926002DE9A6 /* XPathQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 85247C8618062926002DE9A6 /* XPathQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85247C8D18062926002DE9A6 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 85247C8718062926002DE9A6 /* XPathQuery.m */; };
+		85247C9318062962002DE9A6 /* MALinkedIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 85247C9218062962002DE9A6 /* MALinkedIn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85247C95180629DC002DE9A6 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 85247C94180629DC002DE9A6 /* libxml2.dylib */; };
+		85247C97180629E8002DE9A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85247C96180629E8002DE9A6 /* UIKit.framework */; };
+		85247C9918062A49002DE9A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85247C9818062A49002DE9A6 /* CoreGraphics.framework */; };
+		85247CF5180BB87F002DE9A6 /* MALinkedInSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 85247CF3180BB87F002DE9A6 /* MALinkedInSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85247CF6180BB87F002DE9A6 /* MALinkedInSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 85247CF4180BB87F002DE9A6 /* MALinkedInSession.m */; };
+		85247CFB180BCA5F002DE9A6 /* MALinkedInPeopleProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 85247CF9180BCA5F002DE9A6 /* MALinkedInPeopleProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85247CFC180BCA5F002DE9A6 /* MALinkedInPeopleProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 85247CFA180BCA5F002DE9A6 /* MALinkedInPeopleProfile.m */; };
+		85247CFF180CADC3002DE9A6 /* MALinkedInPeopleProfileFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 85247CFD180CADC3002DE9A6 /* MALinkedInPeopleProfileFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85247D00180CADC3002DE9A6 /* MALinkedInPeopleProfileFields.m in Sources */ = {isa = PBXBuildFile; fileRef = 85247CFE180CADC3002DE9A6 /* MALinkedInPeopleProfileFields.m */; };
+		85247D03180CCEA9002DE9A6 /* MALinkedInPeopleConnections.h in Headers */ = {isa = PBXBuildFile; fileRef = 85247D01180CCEA9002DE9A6 /* MALinkedInPeopleConnections.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85247D04180CCEA9002DE9A6 /* MALinkedInPeopleConnections.m in Sources */ = {isa = PBXBuildFile; fileRef = 85247D02180CCEA9002DE9A6 /* MALinkedInPeopleConnections.m */; };
+		85247D07180CCEC7002DE9A6 /* MALinkedInPeopleConnectionsFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 85247D05180CCEC7002DE9A6 /* MALinkedInPeopleConnectionsFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85247D08180CCEC7002DE9A6 /* MALinkedInPeopleConnectionsFields.m in Sources */ = {isa = PBXBuildFile; fileRef = 85247D06180CCEC7002DE9A6 /* MALinkedInPeopleConnectionsFields.m */; };
+		85247D0E180CEC18002DE9A6 /* MALinkedInEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 85247D0D180CEC18002DE9A6 /* MALinkedInEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85247D11180D0393002DE9A6 /* MALinkedInPeopleSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 85247D0F180D0393002DE9A6 /* MALinkedInPeopleSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85247D12180D0393002DE9A6 /* MALinkedInPeopleSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 85247D10180D0393002DE9A6 /* MALinkedInPeopleSearch.m */; };
+		85247D15180DFB3D002DE9A6 /* MALinkedInPeopleSearchFacets.h in Headers */ = {isa = PBXBuildFile; fileRef = 85247D13180DFB3D002DE9A6 /* MALinkedInPeopleSearchFacets.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85247D16180DFB3D002DE9A6 /* MALinkedInPeopleSearchFacets.m in Sources */ = {isa = PBXBuildFile; fileRef = 85247D14180DFB3D002DE9A6 /* MALinkedInPeopleSearchFacets.m */; };
+		85247D19180DFB55002DE9A6 /* MALinkedInPeopleSearchBucket.h in Headers */ = {isa = PBXBuildFile; fileRef = 85247D17180DFB55002DE9A6 /* MALinkedInPeopleSearchBucket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85247D1A180DFB55002DE9A6 /* MALinkedInPeopleSearchBucket.m in Sources */ = {isa = PBXBuildFile; fileRef = 85247D18180DFB55002DE9A6 /* MALinkedInPeopleSearchBucket.m */; };
+		85247D1D180DFB6F002DE9A6 /* MALinkedInPeopleSearchFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 85247D1B180DFB6F002DE9A6 /* MALinkedInPeopleSearchFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85247D1E180DFB6F002DE9A6 /* MALinkedInPeopleSearchFields.m in Sources */ = {isa = PBXBuildFile; fileRef = 85247D1C180DFB6F002DE9A6 /* MALinkedInPeopleSearchFields.m */; };
+		85247D21180E212D002DE9A6 /* MALinkedInCompanies.h in Headers */ = {isa = PBXBuildFile; fileRef = 85247D1F180E212D002DE9A6 /* MALinkedInCompanies.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85247D22180E212D002DE9A6 /* MALinkedInCompanies.m in Sources */ = {isa = PBXBuildFile; fileRef = 85247D20180E212D002DE9A6 /* MALinkedInCompanies.m */; };
+		85247D25180E2280002DE9A6 /* MALinkedInCompaniesFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 85247D23180E2280002DE9A6 /* MALinkedInCompaniesFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85247D26180E2280002DE9A6 /* MALinkedInCompaniesFields.m in Sources */ = {isa = PBXBuildFile; fileRef = 85247D24180E2280002DE9A6 /* MALinkedInCompaniesFields.m */; };
+		8547BE721817816400AF9E52 /* MALinkedInSocialNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 8547BE701817816400AF9E52 /* MALinkedInSocialNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8547BE731817816400AF9E52 /* MALinkedInSocialNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547BE711817816400AF9E52 /* MALinkedInSocialNetwork.m */; };
+		8547BE761817846400AF9E52 /* MALinkedInSocialNetworkFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 8547BE741817846400AF9E52 /* MALinkedInSocialNetworkFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8547BE771817846400AF9E52 /* MALinkedInSocialNetworkFields.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547BE751817846400AF9E52 /* MALinkedInSocialNetworkFields.m */; };
+		8547BE7A18189DAD00AF9E52 /* MALinkedInGroups.h in Headers */ = {isa = PBXBuildFile; fileRef = 8547BE7818189DAD00AF9E52 /* MALinkedInGroups.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8547BE7B18189DAD00AF9E52 /* MALinkedInGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547BE7918189DAD00AF9E52 /* MALinkedInGroups.m */; };
+		8547BE7E1818A44B00AF9E52 /* MALinkedInGroupsFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 8547BE7C1818A44B00AF9E52 /* MALinkedInGroupsFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8547BE7F1818A44B00AF9E52 /* MALinkedInGroupsFields.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547BE7D1818A44B00AF9E52 /* MALinkedInGroupsFields.m */; };
+		8547BE821819D85600AF9E52 /* MALinkedInGroupsParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 8547BE801819D85600AF9E52 /* MALinkedInGroupsParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8547BE831819D85600AF9E52 /* MALinkedInGroupsParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547BE811819D85600AF9E52 /* MALinkedInGroupsParameters.m */; };
+		8547BE861819E9B600AF9E52 /* MALinkedInJobsLookup.h in Headers */ = {isa = PBXBuildFile; fileRef = 8547BE841819E9B600AF9E52 /* MALinkedInJobsLookup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8547BE871819E9B600AF9E52 /* MALinkedInJobsLookup.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547BE851819E9B600AF9E52 /* MALinkedInJobsLookup.m */; };
+		8547BE8A1819E9CA00AF9E52 /* MALinkedInJobsLookupFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 8547BE881819E9CA00AF9E52 /* MALinkedInJobsLookupFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8547BE8B1819E9CA00AF9E52 /* MALinkedInJobsLookupFields.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547BE891819E9CA00AF9E52 /* MALinkedInJobsLookupFields.m */; };
+		8547BE8E1819F28100AF9E52 /* MALinkedInJobsSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 8547BE8C1819F28100AF9E52 /* MALinkedInJobsSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8547BE8F1819F28100AF9E52 /* MALinkedInJobsSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547BE8D1819F28100AF9E52 /* MALinkedInJobsSearch.m */; };
+		8547BE921819F29200AF9E52 /* MALinkedInJobsSearchParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 8547BE901819F29200AF9E52 /* MALinkedInJobsSearchParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8547BE931819F29200AF9E52 /* MALinkedInJobsSearchParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547BE911819F29200AF9E52 /* MALinkedInJobsSearchParameters.m */; };
+		8547BE961819F2A800AF9E52 /* MALinkedInJobsSearchFacets.h in Headers */ = {isa = PBXBuildFile; fileRef = 8547BE941819F2A800AF9E52 /* MALinkedInJobsSearchFacets.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8547BE971819F2A800AF9E52 /* MALinkedInJobsSearchFacets.m in Sources */ = {isa = PBXBuildFile; fileRef = 8547BE951819F2A800AF9E52 /* MALinkedInJobsSearchFacets.m */; };
+		85CC8F42180F5589002EE0A0 /* MALinkedInCommunicationsMessagingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 85CC8F40180F5589002EE0A0 /* MALinkedInCommunicationsMessagingView.h */; };
+		85CC8F43180F5589002EE0A0 /* MALinkedInCommunicationsMessagingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC8F41180F5589002EE0A0 /* MALinkedInCommunicationsMessagingView.m */; };
+		85CC8F51180F8A1B002EE0A0 /* MALinkedInCommunicationsMessaging.h in Headers */ = {isa = PBXBuildFile; fileRef = 85CC8F4F180F8A1B002EE0A0 /* MALinkedInCommunicationsMessaging.h */; };
+		85CC8F52180F8A1B002EE0A0 /* MALinkedInCommunicationsMessaging.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC8F50180F8A1B002EE0A0 /* MALinkedInCommunicationsMessaging.m */; };
+		85CC8F55180F8EF3002EE0A0 /* MALinkedInCommunicationsInvitation.h in Headers */ = {isa = PBXBuildFile; fileRef = 85CC8F53180F8EF3002EE0A0 /* MALinkedInCommunicationsInvitation.h */; };
+		85CC8F56180F8EF3002EE0A0 /* MALinkedInCommunicationsInvitation.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC8F54180F8EF3002EE0A0 /* MALinkedInCommunicationsInvitation.m */; };
+		85CC8F59180F92C2002EE0A0 /* MALinkedInCommunicationsRecipient.h in Headers */ = {isa = PBXBuildFile; fileRef = 85CC8F57180F92C2002EE0A0 /* MALinkedInCommunicationsRecipient.h */; };
+		85CC8F5A180F92C2002EE0A0 /* MALinkedInCommunicationsRecipient.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CC8F58180F92C2002EE0A0 /* MALinkedInCommunicationsRecipient.m */; };
+		85E01F151817434900DE7D85 /* OAHMAC_SHA1SignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E01F131817434900DE7D85 /* OAHMAC_SHA1SignatureProvider.m */; };
+		85E01F161817434900DE7D85 /* OAHMAC_SHA1SignatureProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E01F141817434900DE7D85 /* OAHMAC_SHA1SignatureProvider.h */; };
+		85E01F1D1817439200DE7D85 /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 85E01F171817439200DE7D85 /* Base64Transcoder.c */; };
+		85E01F1E1817439200DE7D85 /* Base64Transcoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E01F181817439200DE7D85 /* Base64Transcoder.h */; };
+		85E01F1F1817439200DE7D85 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 85E01F191817439200DE7D85 /* hmac.c */; };
+		85E01F201817439200DE7D85 /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E01F1A1817439200DE7D85 /* hmac.h */; };
+		85E01F211817439200DE7D85 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 85E01F1B1817439200DE7D85 /* sha1.c */; };
+		85E01F221817439200DE7D85 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E01F1C1817439200DE7D85 /* sha1.h */; };
+		85F0A2711820AB48008EF243 /* MALinkedInConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 85F0A26F1820AB48008EF243 /* MALinkedInConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85F0A2721820AB48008EF243 /* MALinkedInConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F0A2701820AB48008EF243 /* MALinkedInConfiguration.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		85247C61180628DE002DE9A6 /* MALinkedIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = MALinkedIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85247C64180628DE002DE9A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		85247C68180628DE002DE9A6 /* MALinkedIn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MALinkedIn-Info.plist"; sourceTree = "<group>"; };
+		85247C6A180628DE002DE9A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		85247C6C180628DE002DE9A6 /* MALinkedIn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MALinkedIn-Prefix.pch"; sourceTree = "<group>"; };
+		85247C7218062916002DE9A6 /* MALinkedInLogInView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInLogInView.h; sourceTree = "<group>"; };
+		85247C7318062916002DE9A6 /* MALinkedInLogInView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInLogInView.m; sourceTree = "<group>"; };
+		85247C7418062916002DE9A6 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		85247C7518062916002DE9A6 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+		85247C7618062916002DE9A6 /* AMBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBlurView.h; sourceTree = "<group>"; };
+		85247C7718062916002DE9A6 /* AMBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMBlurView.m; sourceTree = "<group>"; };
+		85247C7818062916002DE9A6 /* MALinkedInConnectionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInConnectionHandler.h; sourceTree = "<group>"; };
+		85247C7918062916002DE9A6 /* MALinkedInConnectionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInConnectionHandler.m; sourceTree = "<group>"; };
+		85247C8218062926002DE9A6 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		85247C8318062926002DE9A6 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		85247C8418062926002DE9A6 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		85247C8518062926002DE9A6 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		85247C8618062926002DE9A6 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		85247C8718062926002DE9A6 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		85247C9218062962002DE9A6 /* MALinkedIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedIn.h; sourceTree = "<group>"; };
+		85247C94180629DC002DE9A6 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		85247C96180629E8002DE9A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		85247C9818062A49002DE9A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		85247CF3180BB87F002DE9A6 /* MALinkedInSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInSession.h; sourceTree = "<group>"; };
+		85247CF4180BB87F002DE9A6 /* MALinkedInSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInSession.m; sourceTree = "<group>"; };
+		85247CF9180BCA5F002DE9A6 /* MALinkedInPeopleProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInPeopleProfile.h; sourceTree = "<group>"; };
+		85247CFA180BCA5F002DE9A6 /* MALinkedInPeopleProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInPeopleProfile.m; sourceTree = "<group>"; };
+		85247CFD180CADC3002DE9A6 /* MALinkedInPeopleProfileFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInPeopleProfileFields.h; sourceTree = "<group>"; };
+		85247CFE180CADC3002DE9A6 /* MALinkedInPeopleProfileFields.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInPeopleProfileFields.m; sourceTree = "<group>"; };
+		85247D01180CCEA9002DE9A6 /* MALinkedInPeopleConnections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInPeopleConnections.h; sourceTree = "<group>"; };
+		85247D02180CCEA9002DE9A6 /* MALinkedInPeopleConnections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInPeopleConnections.m; sourceTree = "<group>"; };
+		85247D05180CCEC7002DE9A6 /* MALinkedInPeopleConnectionsFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInPeopleConnectionsFields.h; sourceTree = "<group>"; };
+		85247D06180CCEC7002DE9A6 /* MALinkedInPeopleConnectionsFields.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInPeopleConnectionsFields.m; sourceTree = "<group>"; };
+		85247D0D180CEC18002DE9A6 /* MALinkedInEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInEnums.h; sourceTree = "<group>"; };
+		85247D0F180D0393002DE9A6 /* MALinkedInPeopleSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInPeopleSearch.h; sourceTree = "<group>"; };
+		85247D10180D0393002DE9A6 /* MALinkedInPeopleSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInPeopleSearch.m; sourceTree = "<group>"; };
+		85247D13180DFB3D002DE9A6 /* MALinkedInPeopleSearchFacets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInPeopleSearchFacets.h; sourceTree = "<group>"; };
+		85247D14180DFB3D002DE9A6 /* MALinkedInPeopleSearchFacets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInPeopleSearchFacets.m; sourceTree = "<group>"; };
+		85247D17180DFB55002DE9A6 /* MALinkedInPeopleSearchBucket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInPeopleSearchBucket.h; sourceTree = "<group>"; };
+		85247D18180DFB55002DE9A6 /* MALinkedInPeopleSearchBucket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInPeopleSearchBucket.m; sourceTree = "<group>"; };
+		85247D1B180DFB6F002DE9A6 /* MALinkedInPeopleSearchFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInPeopleSearchFields.h; sourceTree = "<group>"; };
+		85247D1C180DFB6F002DE9A6 /* MALinkedInPeopleSearchFields.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInPeopleSearchFields.m; sourceTree = "<group>"; };
+		85247D1F180E212D002DE9A6 /* MALinkedInCompanies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInCompanies.h; sourceTree = "<group>"; };
+		85247D20180E212D002DE9A6 /* MALinkedInCompanies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInCompanies.m; sourceTree = "<group>"; };
+		85247D23180E2280002DE9A6 /* MALinkedInCompaniesFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInCompaniesFields.h; sourceTree = "<group>"; };
+		85247D24180E2280002DE9A6 /* MALinkedInCompaniesFields.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInCompaniesFields.m; sourceTree = "<group>"; };
+		8547BE701817816400AF9E52 /* MALinkedInSocialNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInSocialNetwork.h; sourceTree = "<group>"; };
+		8547BE711817816400AF9E52 /* MALinkedInSocialNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInSocialNetwork.m; sourceTree = "<group>"; };
+		8547BE741817846400AF9E52 /* MALinkedInSocialNetworkFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInSocialNetworkFields.h; sourceTree = "<group>"; };
+		8547BE751817846400AF9E52 /* MALinkedInSocialNetworkFields.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInSocialNetworkFields.m; sourceTree = "<group>"; };
+		8547BE7818189DAD00AF9E52 /* MALinkedInGroups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInGroups.h; sourceTree = "<group>"; };
+		8547BE7918189DAD00AF9E52 /* MALinkedInGroups.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInGroups.m; sourceTree = "<group>"; };
+		8547BE7C1818A44B00AF9E52 /* MALinkedInGroupsFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInGroupsFields.h; sourceTree = "<group>"; };
+		8547BE7D1818A44B00AF9E52 /* MALinkedInGroupsFields.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInGroupsFields.m; sourceTree = "<group>"; };
+		8547BE801819D85600AF9E52 /* MALinkedInGroupsParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInGroupsParameters.h; sourceTree = "<group>"; };
+		8547BE811819D85600AF9E52 /* MALinkedInGroupsParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInGroupsParameters.m; sourceTree = "<group>"; };
+		8547BE841819E9B600AF9E52 /* MALinkedInJobsLookup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInJobsLookup.h; sourceTree = "<group>"; };
+		8547BE851819E9B600AF9E52 /* MALinkedInJobsLookup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInJobsLookup.m; sourceTree = "<group>"; };
+		8547BE881819E9CA00AF9E52 /* MALinkedInJobsLookupFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInJobsLookupFields.h; sourceTree = "<group>"; };
+		8547BE891819E9CA00AF9E52 /* MALinkedInJobsLookupFields.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInJobsLookupFields.m; sourceTree = "<group>"; };
+		8547BE8C1819F28100AF9E52 /* MALinkedInJobsSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInJobsSearch.h; sourceTree = "<group>"; };
+		8547BE8D1819F28100AF9E52 /* MALinkedInJobsSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInJobsSearch.m; sourceTree = "<group>"; };
+		8547BE901819F29200AF9E52 /* MALinkedInJobsSearchParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInJobsSearchParameters.h; sourceTree = "<group>"; };
+		8547BE911819F29200AF9E52 /* MALinkedInJobsSearchParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInJobsSearchParameters.m; sourceTree = "<group>"; };
+		8547BE941819F2A800AF9E52 /* MALinkedInJobsSearchFacets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInJobsSearchFacets.h; sourceTree = "<group>"; };
+		8547BE951819F2A800AF9E52 /* MALinkedInJobsSearchFacets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInJobsSearchFacets.m; sourceTree = "<group>"; };
+		85CC8F40180F5589002EE0A0 /* MALinkedInCommunicationsMessagingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInCommunicationsMessagingView.h; sourceTree = "<group>"; };
+		85CC8F41180F5589002EE0A0 /* MALinkedInCommunicationsMessagingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInCommunicationsMessagingView.m; sourceTree = "<group>"; };
+		85CC8F4F180F8A1B002EE0A0 /* MALinkedInCommunicationsMessaging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInCommunicationsMessaging.h; sourceTree = "<group>"; };
+		85CC8F50180F8A1B002EE0A0 /* MALinkedInCommunicationsMessaging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInCommunicationsMessaging.m; sourceTree = "<group>"; };
+		85CC8F53180F8EF3002EE0A0 /* MALinkedInCommunicationsInvitation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInCommunicationsInvitation.h; sourceTree = "<group>"; };
+		85CC8F54180F8EF3002EE0A0 /* MALinkedInCommunicationsInvitation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInCommunicationsInvitation.m; sourceTree = "<group>"; };
+		85CC8F57180F92C2002EE0A0 /* MALinkedInCommunicationsRecipient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInCommunicationsRecipient.h; sourceTree = "<group>"; };
+		85CC8F58180F92C2002EE0A0 /* MALinkedInCommunicationsRecipient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInCommunicationsRecipient.m; sourceTree = "<group>"; };
+		85E01F131817434900DE7D85 /* OAHMAC_SHA1SignatureProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAHMAC_SHA1SignatureProvider.m; sourceTree = "<group>"; };
+		85E01F141817434900DE7D85 /* OAHMAC_SHA1SignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAHMAC_SHA1SignatureProvider.h; sourceTree = "<group>"; };
+		85E01F171817439200DE7D85 /* Base64Transcoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Base64Transcoder.c; sourceTree = "<group>"; };
+		85E01F181817439200DE7D85 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		85E01F191817439200DE7D85 /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		85E01F1A1817439200DE7D85 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		85E01F1B1817439200DE7D85 /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		85E01F1C1817439200DE7D85 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		85F0A26F1820AB48008EF243 /* MALinkedInConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MALinkedInConfiguration.h; sourceTree = "<group>"; };
+		85F0A2701820AB48008EF243 /* MALinkedInConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MALinkedInConfiguration.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85247C5B180628DE002DE9A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85247C9918062A49002DE9A6 /* CoreGraphics.framework in Frameworks */,
+				85247C97180629E8002DE9A6 /* UIKit.framework in Frameworks */,
+				85247C95180629DC002DE9A6 /* libxml2.dylib in Frameworks */,
+				85247C65180628DE002DE9A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85247C54180628DE002DE9A6 = {
+			isa = PBXGroup;
+			children = (
+				85E01F121817433E00DE7D85 /* OA */,
+				85247C66180628DE002DE9A6 /* MALinkedIn */,
+				85247C63180628DE002DE9A6 /* Frameworks */,
+				85247C62180628DE002DE9A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85247C62180628DE002DE9A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85247C61180628DE002DE9A6 /* MALinkedIn.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85247C63180628DE002DE9A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85247C9818062A49002DE9A6 /* CoreGraphics.framework */,
+				85247C96180629E8002DE9A6 /* UIKit.framework */,
+				85247C94180629DC002DE9A6 /* libxml2.dylib */,
+				85247C64180628DE002DE9A6 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85247C66180628DE002DE9A6 /* MALinkedIn */ = {
+			isa = PBXGroup;
+			children = (
+				85F0A27E1820B7DD008EF243 /* LinkedIn */,
+				85F0A27F1820B805008EF243 /* Other */,
+				85247C67180628DE002DE9A6 /* Supporting Files */,
+			);
+			path = MALinkedIn;
+			sourceTree = "<group>";
+		};
+		85247C67180628DE002DE9A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85247C68180628DE002DE9A6 /* MALinkedIn-Info.plist */,
+				85247C69180628DE002DE9A6 /* InfoPlist.strings */,
+				85247C6C180628DE002DE9A6 /* MALinkedIn-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85247CF0180BB41E002DE9A6 /* XMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				85247C7418062916002DE9A6 /* XMLDictionary.h */,
+				85247C7518062916002DE9A6 /* XMLDictionary.m */,
+			);
+			name = XMLDictionary;
+			sourceTree = "<group>";
+		};
+		85247CF1180BB42A002DE9A6 /* AMBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				85247C7618062916002DE9A6 /* AMBlurView.h */,
+				85247C7718062916002DE9A6 /* AMBlurView.m */,
+			);
+			name = AMBlurView;
+			sourceTree = "<group>";
+		};
+		85247CF2180BB7A7002DE9A6 /* TFHpple */ = {
+			isa = PBXGroup;
+			children = (
+				85247C8218062926002DE9A6 /* TFHpple.h */,
+				85247C8318062926002DE9A6 /* TFHpple.m */,
+				85247C8418062926002DE9A6 /* TFHppleElement.h */,
+				85247C8518062926002DE9A6 /* TFHppleElement.m */,
+				85247C8618062926002DE9A6 /* XPathQuery.h */,
+				85247C8718062926002DE9A6 /* XPathQuery.m */,
+			);
+			name = TFHpple;
+			sourceTree = "<group>";
+		};
+		85E01F121817433E00DE7D85 /* OA */ = {
+			isa = PBXGroup;
+			children = (
+				85E01F141817434900DE7D85 /* OAHMAC_SHA1SignatureProvider.h */,
+				85E01F131817434900DE7D85 /* OAHMAC_SHA1SignatureProvider.m */,
+				85E01F171817439200DE7D85 /* Base64Transcoder.c */,
+				85E01F181817439200DE7D85 /* Base64Transcoder.h */,
+				85E01F191817439200DE7D85 /* hmac.c */,
+				85E01F1A1817439200DE7D85 /* hmac.h */,
+				85E01F1B1817439200DE7D85 /* sha1.c */,
+				85E01F1C1817439200DE7D85 /* sha1.h */,
+			);
+			name = OA;
+			sourceTree = "<group>";
+		};
+		85F0A2731820B74B008EF243 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				85F0A2741820B75E008EF243 /* Profile */,
+				85F0A2751820B767008EF243 /* Connections */,
+				85F0A2761820B76F008EF243 /* Search */,
+			);
+			name = People;
+			sourceTree = "<group>";
+		};
+		85F0A2741820B75E008EF243 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				85247CF9180BCA5F002DE9A6 /* MALinkedInPeopleProfile.h */,
+				85247CFA180BCA5F002DE9A6 /* MALinkedInPeopleProfile.m */,
+				85247CFD180CADC3002DE9A6 /* MALinkedInPeopleProfileFields.h */,
+				85247CFE180CADC3002DE9A6 /* MALinkedInPeopleProfileFields.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		85F0A2751820B767008EF243 /* Connections */ = {
+			isa = PBXGroup;
+			children = (
+				85247D01180CCEA9002DE9A6 /* MALinkedInPeopleConnections.h */,
+				85247D02180CCEA9002DE9A6 /* MALinkedInPeopleConnections.m */,
+				85247D05180CCEC7002DE9A6 /* MALinkedInPeopleConnectionsFields.h */,
+				85247D06180CCEC7002DE9A6 /* MALinkedInPeopleConnectionsFields.m */,
+			);
+			name = Connections;
+			sourceTree = "<group>";
+		};
+		85F0A2761820B76F008EF243 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				85247D0F180D0393002DE9A6 /* MALinkedInPeopleSearch.h */,
+				85247D10180D0393002DE9A6 /* MALinkedInPeopleSearch.m */,
+				85247D13180DFB3D002DE9A6 /* MALinkedInPeopleSearchFacets.h */,
+				85247D14180DFB3D002DE9A6 /* MALinkedInPeopleSearchFacets.m */,
+				85247D17180DFB55002DE9A6 /* MALinkedInPeopleSearchBucket.h */,
+				85247D18180DFB55002DE9A6 /* MALinkedInPeopleSearchBucket.m */,
+				85247D1B180DFB6F002DE9A6 /* MALinkedInPeopleSearchFields.h */,
+				85247D1C180DFB6F002DE9A6 /* MALinkedInPeopleSearchFields.m */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		85F0A2771820B77C008EF243 /* Companies */ = {
+			isa = PBXGroup;
+			children = (
+				85247D1F180E212D002DE9A6 /* MALinkedInCompanies.h */,
+				85247D20180E212D002DE9A6 /* MALinkedInCompanies.m */,
+				85247D23180E2280002DE9A6 /* MALinkedInCompaniesFields.h */,
+				85247D24180E2280002DE9A6 /* MALinkedInCompaniesFields.m */,
+			);
+			name = Companies;
+			sourceTree = "<group>";
+		};
+		85F0A2781820B787008EF243 /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				8547BE701817816400AF9E52 /* MALinkedInSocialNetwork.h */,
+				8547BE711817816400AF9E52 /* MALinkedInSocialNetwork.m */,
+				8547BE741817846400AF9E52 /* MALinkedInSocialNetworkFields.h */,
+				8547BE751817846400AF9E52 /* MALinkedInSocialNetworkFields.m */,
+			);
+			name = Social;
+			sourceTree = "<group>";
+		};
+		85F0A2791820B790008EF243 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				8547BE7818189DAD00AF9E52 /* MALinkedInGroups.h */,
+				8547BE7918189DAD00AF9E52 /* MALinkedInGroups.m */,
+				8547BE7C1818A44B00AF9E52 /* MALinkedInGroupsFields.h */,
+				8547BE7D1818A44B00AF9E52 /* MALinkedInGroupsFields.m */,
+				8547BE801819D85600AF9E52 /* MALinkedInGroupsParameters.h */,
+				8547BE811819D85600AF9E52 /* MALinkedInGroupsParameters.m */,
+			);
+			name = Groups;
+			sourceTree = "<group>";
+		};
+		85F0A27A1820B79A008EF243 /* Jobs */ = {
+			isa = PBXGroup;
+			children = (
+				85F0A27B1820B7A1008EF243 /* Lookup */,
+				85F0A27C1820B7AA008EF243 /* Search */,
+			);
+			name = Jobs;
+			sourceTree = "<group>";
+		};
+		85F0A27B1820B7A1008EF243 /* Lookup */ = {
+			isa = PBXGroup;
+			children = (
+				8547BE841819E9B600AF9E52 /* MALinkedInJobsLookup.h */,
+				8547BE851819E9B600AF9E52 /* MALinkedInJobsLookup.m */,
+				8547BE881819E9CA00AF9E52 /* MALinkedInJobsLookupFields.h */,
+				8547BE891819E9CA00AF9E52 /* MALinkedInJobsLookupFields.m */,
+			);
+			name = Lookup;
+			sourceTree = "<group>";
+		};
+		85F0A27C1820B7AA008EF243 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				8547BE8C1819F28100AF9E52 /* MALinkedInJobsSearch.h */,
+				8547BE8D1819F28100AF9E52 /* MALinkedInJobsSearch.m */,
+				8547BE901819F29200AF9E52 /* MALinkedInJobsSearchParameters.h */,
+				8547BE911819F29200AF9E52 /* MALinkedInJobsSearchParameters.m */,
+				8547BE941819F2A800AF9E52 /* MALinkedInJobsSearchFacets.h */,
+				8547BE951819F2A800AF9E52 /* MALinkedInJobsSearchFacets.m */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		85F0A27D1820B7B7008EF243 /* Communications */ = {
+			isa = PBXGroup;
+			children = (
+				85CC8F40180F5589002EE0A0 /* MALinkedInCommunicationsMessagingView.h */,
+				85CC8F41180F5589002EE0A0 /* MALinkedInCommunicationsMessagingView.m */,
+				85CC8F4F180F8A1B002EE0A0 /* MALinkedInCommunicationsMessaging.h */,
+				85CC8F50180F8A1B002EE0A0 /* MALinkedInCommunicationsMessaging.m */,
+				85CC8F53180F8EF3002EE0A0 /* MALinkedInCommunicationsInvitation.h */,
+				85CC8F54180F8EF3002EE0A0 /* MALinkedInCommunicationsInvitation.m */,
+				85CC8F57180F92C2002EE0A0 /* MALinkedInCommunicationsRecipient.h */,
+				85CC8F58180F92C2002EE0A0 /* MALinkedInCommunicationsRecipient.m */,
+			);
+			name = Communications;
+			sourceTree = "<group>";
+		};
+		85F0A27E1820B7DD008EF243 /* LinkedIn */ = {
+			isa = PBXGroup;
+			children = (
+				85247C9218062962002DE9A6 /* MALinkedIn.h */,
+				85247D0D180CEC18002DE9A6 /* MALinkedInEnums.h */,
+				85F0A26F1820AB48008EF243 /* MALinkedInConfiguration.h */,
+				85F0A2701820AB48008EF243 /* MALinkedInConfiguration.m */,
+				85247C7818062916002DE9A6 /* MALinkedInConnectionHandler.h */,
+				85247C7918062916002DE9A6 /* MALinkedInConnectionHandler.m */,
+				85247CF3180BB87F002DE9A6 /* MALinkedInSession.h */,
+				85247CF4180BB87F002DE9A6 /* MALinkedInSession.m */,
+				85247C7218062916002DE9A6 /* MALinkedInLogInView.h */,
+				85247C7318062916002DE9A6 /* MALinkedInLogInView.m */,
+				85F0A2731820B74B008EF243 /* People */,
+				85F0A2771820B77C008EF243 /* Companies */,
+				85F0A2781820B787008EF243 /* Social */,
+				85F0A2791820B790008EF243 /* Groups */,
+				85F0A27A1820B79A008EF243 /* Jobs */,
+				85F0A27D1820B7B7008EF243 /* Communications */,
+			);
+			name = LinkedIn;
+			sourceTree = "<group>";
+		};
+		85F0A27F1820B805008EF243 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				85247CF0180BB41E002DE9A6 /* XMLDictionary */,
+				85247CF1180BB42A002DE9A6 /* AMBlurView */,
+				85247CF2180BB7A7002DE9A6 /* TFHpple */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		85247C5C180628DE002DE9A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85247C9318062962002DE9A6 /* MALinkedIn.h in Headers */,
+				85247D0E180CEC18002DE9A6 /* MALinkedInEnums.h in Headers */,
+				85F0A2711820AB48008EF243 /* MALinkedInConfiguration.h in Headers */,
+				85247C7A18062916002DE9A6 /* MALinkedInLogInView.h in Headers */,
+				85247C8018062916002DE9A6 /* MALinkedInConnectionHandler.h in Headers */,
+				85247CFB180BCA5F002DE9A6 /* MALinkedInPeopleProfile.h in Headers */,
+				85247CFF180CADC3002DE9A6 /* MALinkedInPeopleProfileFields.h in Headers */,
+				85247D03180CCEA9002DE9A6 /* MALinkedInPeopleConnections.h in Headers */,
+				85247D07180CCEC7002DE9A6 /* MALinkedInPeopleConnectionsFields.h in Headers */,
+				85E01F1E1817439200DE7D85 /* Base64Transcoder.h in Headers */,
+				85247D11180D0393002DE9A6 /* MALinkedInPeopleSearch.h in Headers */,
+				85247D15180DFB3D002DE9A6 /* MALinkedInPeopleSearchFacets.h in Headers */,
+				85247D19180DFB55002DE9A6 /* MALinkedInPeopleSearchBucket.h in Headers */,
+				85247C8A18062926002DE9A6 /* TFHppleElement.h in Headers */,
+				85247D1D180DFB6F002DE9A6 /* MALinkedInPeopleSearchFields.h in Headers */,
+				85247D21180E212D002DE9A6 /* MALinkedInCompanies.h in Headers */,
+				85247D25180E2280002DE9A6 /* MALinkedInCompaniesFields.h in Headers */,
+				8547BE721817816400AF9E52 /* MALinkedInSocialNetwork.h in Headers */,
+				8547BE761817846400AF9E52 /* MALinkedInSocialNetworkFields.h in Headers */,
+				8547BE7A18189DAD00AF9E52 /* MALinkedInGroups.h in Headers */,
+				8547BE7E1818A44B00AF9E52 /* MALinkedInGroupsFields.h in Headers */,
+				8547BE821819D85600AF9E52 /* MALinkedInGroupsParameters.h in Headers */,
+				8547BE861819E9B600AF9E52 /* MALinkedInJobsLookup.h in Headers */,
+				8547BE8A1819E9CA00AF9E52 /* MALinkedInJobsLookupFields.h in Headers */,
+				8547BE8E1819F28100AF9E52 /* MALinkedInJobsSearch.h in Headers */,
+				8547BE921819F29200AF9E52 /* MALinkedInJobsSearchParameters.h in Headers */,
+				85E01F161817434900DE7D85 /* OAHMAC_SHA1SignatureProvider.h in Headers */,
+				8547BE961819F2A800AF9E52 /* MALinkedInJobsSearchFacets.h in Headers */,
+				85E01F221817439200DE7D85 /* sha1.h in Headers */,
+				85247CF5180BB87F002DE9A6 /* MALinkedInSession.h in Headers */,
+				85247C8818062926002DE9A6 /* TFHpple.h in Headers */,
+				85CC8F51180F8A1B002EE0A0 /* MALinkedInCommunicationsMessaging.h in Headers */,
+				85CC8F42180F5589002EE0A0 /* MALinkedInCommunicationsMessagingView.h in Headers */,
+				85CC8F55180F8EF3002EE0A0 /* MALinkedInCommunicationsInvitation.h in Headers */,
+				85CC8F59180F92C2002EE0A0 /* MALinkedInCommunicationsRecipient.h in Headers */,
+				85247C7E18062916002DE9A6 /* AMBlurView.h in Headers */,
+				85247C7C18062916002DE9A6 /* XMLDictionary.h in Headers */,
+				85E01F201817439200DE7D85 /* hmac.h in Headers */,
+				85247C8C18062926002DE9A6 /* XPathQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		85247C60180628DE002DE9A6 /* MALinkedIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85247C6F180628DE002DE9A6 /* Build configuration list for PBXNativeTarget "MALinkedIn" */;
+			buildPhases = (
+				85247C59180628DE002DE9A6 /* ShellScript */,
+				85247C5A180628DE002DE9A6 /* Sources */,
+				85247C5B180628DE002DE9A6 /* Frameworks */,
+				85247C5C180628DE002DE9A6 /* Headers */,
+				85247C5D180628DE002DE9A6 /* Resources */,
+				85247C5E180628DE002DE9A6 /* ShellScript */,
+				85247C5F180628DE002DE9A6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MALinkedIn;
+			productName = MALinkedIn;
+			productReference = 85247C61180628DE002DE9A6 /* MALinkedIn.framework */;
+			productType = "com.apple.product-type.framework.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85247C55180628DE002DE9A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = MadApper;
+			};
+			buildConfigurationList = 85247C58180628DE002DE9A6 /* Build configuration list for PBXProject "MALinkedIn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 85247C54180628DE002DE9A6;
+			productRefGroup = 85247C62180628DE002DE9A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85247C60180628DE002DE9A6 /* MALinkedIn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85247C5D180628DE002DE9A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85247C6B180628DE002DE9A6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85247C59180628DE002DE9A6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n  ([[ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]] || \\\n    ([[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n     [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n     [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n    )\n  )\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n\nif [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n# /bin/cp -a \"${TARGET_BUILD_DIR}/include/${PRODUCT_NAME}\"\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\nfi\n";
+		};
+		85247C5E180628DE002DE9A6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "HEADERS_ROOT=$SRCROOT/$PRODUCT_NAME\nFRAMEWORK_HEADERS_DIR=\"$BUILT_PRODUCTS_DIR/$WRAPPER_NAME/Versions/$FRAMEWORK_VERSION/Headers\"\n\n## only header files expected at this point\nPUBLIC_HEADERS=$(find $FRAMEWORK_HEADERS_DIR/. -not -type d 2> /dev/null | sed -e \"s@.*/@@g\")\n\nFIND_OPTS=\"\"\nfor PUBLIC_HEADER in $PUBLIC_HEADERS; do\n  if [ -n \"$FIND_OPTS\" ]; then\n    FIND_OPTS=\"$FIND_OPTS -o\"\n  fi\n  FIND_OPTS=\"$FIND_OPTS -name '$PUBLIC_HEADER'\"\ndone\n\nif [ -n \"$FIND_OPTS\" ]; then\n  for ORIG_HEADER in $(eval \"find $HEADERS_ROOT/. $FIND_OPTS\" 2> /dev/null | sed -e \"s@^$HEADERS_ROOT/./@@g\"); do\n    PUBLIC_HEADER=$(basename $ORIG_HEADER)\n    RELATIVE_PATH=$(dirname $ORIG_HEADER)\n    if [ -e $FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER ]; then\n      mkdir -p \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH\"\n      mv \"$FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER\" \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH/$PUBLIC_HEADER\"\n    fi\n  done\nfi\n";
+		};
+		85247C5F180628DE002DE9A6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]\nthen\n    echo \"ONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM}: Skipping other platform build\"\nelse\n    # Make sure the other platform gets built\n    \n    echo \"Build other platform\"\n    \n    echo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    \n    \n    # Build the fat static library binary\n    \n    echo \"Create universal static library\"\n    \nif [[ \"$XCODE_VERSION_MAJOR\" = \"0500\" ]]\nthen\n    echo \"$DT_TOOLCHAIN_DIR/usr/bin/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \"$DT_TOOLCHAIN_DIR/usr/bin/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\nelse\n    echo \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\nfi \n    echo mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nfi\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]\nthen\n    # Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n    \n    echo \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n    \n    echo rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    echo cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n# /bin/cp -a \"${TARGET_BUILD_DIR}/include/${PRODUCT_NAME}\"\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85247C5A180628DE002DE9A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85247D12180D0393002DE9A6 /* MALinkedInPeopleSearch.m in Sources */,
+				8547BE8F1819F28100AF9E52 /* MALinkedInJobsSearch.m in Sources */,
+				85247C8B18062926002DE9A6 /* TFHppleElement.m in Sources */,
+				85247D00180CADC3002DE9A6 /* MALinkedInPeopleProfileFields.m in Sources */,
+				85247D08180CCEC7002DE9A6 /* MALinkedInPeopleConnectionsFields.m in Sources */,
+				8547BE7F1818A44B00AF9E52 /* MALinkedInGroupsFields.m in Sources */,
+				85247C8D18062926002DE9A6 /* XPathQuery.m in Sources */,
+				8547BE731817816400AF9E52 /* MALinkedInSocialNetwork.m in Sources */,
+				85E01F151817434900DE7D85 /* OAHMAC_SHA1SignatureProvider.m in Sources */,
+				8547BE8B1819E9CA00AF9E52 /* MALinkedInJobsLookupFields.m in Sources */,
+				85247C8918062926002DE9A6 /* TFHpple.m in Sources */,
+				85247C7B18062916002DE9A6 /* MALinkedInLogInView.m in Sources */,
+				85247D1E180DFB6F002DE9A6 /* MALinkedInPeopleSearchFields.m in Sources */,
+				8547BE7B18189DAD00AF9E52 /* MALinkedInGroups.m in Sources */,
+				8547BE771817846400AF9E52 /* MALinkedInSocialNetworkFields.m in Sources */,
+				85E01F211817439200DE7D85 /* sha1.c in Sources */,
+				85E01F1F1817439200DE7D85 /* hmac.c in Sources */,
+				8547BE971819F2A800AF9E52 /* MALinkedInJobsSearchFacets.m in Sources */,
+				85CC8F5A180F92C2002EE0A0 /* MALinkedInCommunicationsRecipient.m in Sources */,
+				85CC8F43180F5589002EE0A0 /* MALinkedInCommunicationsMessagingView.m in Sources */,
+				85CC8F52180F8A1B002EE0A0 /* MALinkedInCommunicationsMessaging.m in Sources */,
+				8547BE931819F29200AF9E52 /* MALinkedInJobsSearchParameters.m in Sources */,
+				85CC8F56180F8EF3002EE0A0 /* MALinkedInCommunicationsInvitation.m in Sources */,
+				85E01F1D1817439200DE7D85 /* Base64Transcoder.c in Sources */,
+				8547BE831819D85600AF9E52 /* MALinkedInGroupsParameters.m in Sources */,
+				8547BE871819E9B600AF9E52 /* MALinkedInJobsLookup.m in Sources */,
+				85247D22180E212D002DE9A6 /* MALinkedInCompanies.m in Sources */,
+				85F0A2721820AB48008EF243 /* MALinkedInConfiguration.m in Sources */,
+				85247D1A180DFB55002DE9A6 /* MALinkedInPeopleSearchBucket.m in Sources */,
+				85247D04180CCEA9002DE9A6 /* MALinkedInPeopleConnections.m in Sources */,
+				85247C7F18062916002DE9A6 /* AMBlurView.m in Sources */,
+				85247D26180E2280002DE9A6 /* MALinkedInCompaniesFields.m in Sources */,
+				85247CFC180BCA5F002DE9A6 /* MALinkedInPeopleProfile.m in Sources */,
+				85247C7D18062916002DE9A6 /* XMLDictionary.m in Sources */,
+				85247CF6180BB87F002DE9A6 /* MALinkedInSession.m in Sources */,
+				85247D16180DFB3D002DE9A6 /* MALinkedInPeopleSearchFacets.m in Sources */,
+				85247C8118062916002DE9A6 /* MALinkedInConnectionHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85247C69180628DE002DE9A6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85247C6A180628DE002DE9A6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85247C6D180628DE002DE9A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		85247C6E180628DE002DE9A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85247C70180628DE002DE9A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MALinkedIn/MALinkedIn-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "MALinkedIn/MALinkedIn-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		85247C71180628DE002DE9A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MALinkedIn/MALinkedIn-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "MALinkedIn/MALinkedIn-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85247C58180628DE002DE9A6 /* Build configuration list for PBXProject "MALinkedIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85247C6D180628DE002DE9A6 /* Debug */,
+				85247C6E180628DE002DE9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85247C6F180628DE002DE9A6 /* Build configuration list for PBXNativeTarget "MALinkedIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85247C70180628DE002DE9A6 /* Debug */,
+				85247C71180628DE002DE9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85247C55180628DE002DE9A6 /* Project object */;
+}
